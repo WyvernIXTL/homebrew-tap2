@@ -7,8 +7,9 @@ class Wuerfel < Formula
 
   bottle do
     root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/wuerfel-0.1.11"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "cff897965d7c80394db56305374fd36779a93dda82d8b4908a3de15bb0274682"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "ecaa332349954cc91725fb5210d293d5b4deb5ecf428b955a0e2e74cba2c50bb"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "2ed33a7c1c3fd7375e873760b270c5c53bf0d6cb73ece3f7e8d282931cdce07c"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "55318c18624b7a4ee756208472474648e88dab3209750f44ec48dc88e4aa13c4"
   end
 
   depends_on "expat" => :build
