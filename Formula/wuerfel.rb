@@ -6,6 +6,7 @@ class Wuerfel < Formula
   license "MPL-2.0"
 
   depends_on "rust" => :build
+  depends_on "expat"
 
   def install
     system "cargo", "install", *std_cargo_args
