@@ -11,8 +11,8 @@ class Wuerfel < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "ecaa332349954cc91725fb5210d293d5b4deb5ecf428b955a0e2e74cba2c50bb"
   end
 
-  depends_on "rust" => :build
   depends_on "expat" => :build
+  depends_on "rust" => :build
 
   def install
     system "cargo", "install", *std_cargo_args

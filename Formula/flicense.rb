@@ -12,8 +12,8 @@ class Flicense < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "0164d0c34d13203498064b3cea9a81eec262d2a42a51002a5758c0d2e112c979"
   end
 
-  depends_on "rust" => :build
   depends_on "expat" => :build
+  depends_on "rust" => :build
 
   def install
     system "cargo", "install", *std_cargo_args
