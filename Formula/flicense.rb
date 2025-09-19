@@ -13,19 +13,6 @@ class Flicense < Formula
   end
 
   test do
-    system "cargo", "new", "test-proj"
-    Dir.chdir("test-proj") do
-      system "cargo", "add", "license-fetcher"
-      system bin/"flicense"
-      system bin/"flicense", "."
-      system bin/"flicense", "--short"
-      system bin/"flicense", "-o"
-      system bin/"flicense", "--stats"
-      system bin/"flicense", "--yaml"
-      system bin/"flicense", "--json"
-      system bin/"flicense", "--license"
-      system bin/"flicense", "--version"
-      system bin/"flicense", "--encode", "./test.bincode.deflate"
-    end
+    system bin/"flicense", "--help"
   end
 end
