@@ -12,7 +12,7 @@ class Wuerfel < Formula
   end
 
   depends_on "rust" => :build
-  depends_on "expat"
+  depends_on "expat" => :build
 
   def install
     system "cargo", "install", *std_cargo_args
