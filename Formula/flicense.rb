@@ -6,6 +6,7 @@ class Flicense < Formula
   license "BSL-1.0"
 
   depends_on "rust" => :build
+  depends_on "expat"
 
   def install
     system "cargo", "install", *std_cargo_args
