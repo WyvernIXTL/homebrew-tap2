@@ -44,3 +44,16 @@ HOMEBREW_NO_INSTALL_FROM_API=1 brew audit --new --formula flicense
 ```sh
 HOMEBREW_NO_INSTALL_FROM_API=1 brew test flicense
 ```
+
+## Bump Formula
+
+### All in One
+
+<https://docs.brew.sh/Manpage#bump-formula-pr-options-formula>
+
+This bumps a formula and creates a PR.
+
+With dry run:
+```sh
+brew bump-formula-pr flicense --url https://github.com/WyvernIXTL/flicense-rs/archive/refs/tags/v0.4.0.tar.gz -n
+```
