@@ -47,12 +47,13 @@ HOMEBREW_NO_INSTALL_FROM_API=1 brew test flicense
 
 ## Bump Formula
 
-### All in One
-
-<https://docs.brew.sh/Manpage#bump-formula-pr-options-formula>
-
-This bumps a formula and creates a PR.
-
+### Check Versions
 ```sh
-brew bump-formula-pr flicense
+brew bump --tap wyvernixtl/tap2
 ```
+
+### Open PR
+```sh
+brew bump --tap wyvernixtl/tap2 --open-pr
+```
+
