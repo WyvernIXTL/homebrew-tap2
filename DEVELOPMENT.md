@@ -1,5 +1,8 @@
 # Development Guide
 
+> [!TIP]
+> Most steps are automated via [Task](https://taskfile.dev/).
+
 First off install the tap:
 
 ```sh
@@ -13,6 +16,10 @@ cd "$(brew --repo wyvernixtl/tap2)"
 ```
 
 ## Test a Formula
+
+```sh
+FORMULA=flicense task audit
+```
 
 ### Check Version
 
@@ -53,11 +60,21 @@ HOMEBREW_NO_INSTALL_FROM_API=1 brew test flicense
 ## Bump Formula
 
 ### Check Versions
+
+```sh
+task check
+```
+
 ```sh
 brew bump --tap wyvernixtl/tap2
 ```
 
 ### Open PR
+
+```sh
+task bump
+```
+
 ```sh
 brew bump --tap wyvernixtl/tap2 --open-pr
 ```
