@@ -6,10 +6,9 @@ class Wuerfel < Formula
   license "MPL-2.0"
 
   bottle do
-    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/wuerfel-0.1.11"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "2ed33a7c1c3fd7375e873760b270c5c53bf0d6cb73ece3f7e8d282931cdce07c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "55318c18624b7a4ee756208472474648e88dab3209750f44ec48dc88e4aa13c4"
+    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/wuerfel-0.1.12"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "eefb926dedfbeb4015ffd37abb6872f13f3989cffee14b603a0af6a8a857c4bf"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "37754a22a20eaaee3c565b879ee934225f8508c9481b789861a10a6988027759"
   end
 
   depends_on "expat" => :build
