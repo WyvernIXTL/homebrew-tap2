@@ -14,12 +14,6 @@ cd "$(brew --repo wyvernixtl/tap2)"
 
 ## Test a Formula
 
-### Install from Source
-
-```sh
-HOMEBREW_NO_INSTALL_FROM_API=1 brew install --build-from-source --verbose --debug flicense
-```
-
 ### Check Version
 
 For checking if the automatic version works:
@@ -31,12 +25,23 @@ HOMEBREW_NO_INSTALL_FROM_API=1 brew info flicense
 
 For new formulas:
 ```sh
-HOMEBREW_NO_INSTALL_FROM_API=1 audit --new --formula flicense
+HOMEBREW_NO_INSTALL_FROM_API=1 brew audit --new --formula flicense
 ```
 
 For existing formulas:
 ```sh
-HOMEBREW_NO_INSTALL_FROM_API=1 brew audit --new --formula flicense
+HOMEBREW_NO_INSTALL_FROM_API=1 brew audit --strict --online flicense
+```
+
+### Install from Source
+
+```sh
+HOMEBREW_NO_INSTALL_FROM_API=1 brew install --build-from-source --verbose --debug flicense
+```
+
+Or reinstall:
+```sh
+HOMEBREW_NO_INSTALL_FROM_API=1 brew reinstall --build-from-source --verbose --debug flicense
 ```
 
 ### Run Tests
