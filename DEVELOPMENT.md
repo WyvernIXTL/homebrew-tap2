@@ -54,5 +54,5 @@ HOMEBREW_NO_INSTALL_FROM_API=1 brew test flicense
 This bumps a formula and creates a PR.
 
 ```sh
-brew bump-formula-pr flicense --url https://github.com/WyvernIXTL/flicense-rs/ --tag v0.4.0
+brew bump-formula-pr flicense --version 0.4.0
 ```
