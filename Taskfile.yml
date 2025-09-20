@@ -1,0 +1,26 @@
+version: '3'
+
+tasks:
+  check:
+    description: Check versions and wether a formula can be bumped.
+    cmds:
+      - brew bump --tap wyvernixtl/tap2
+
+  bump:
+    description: |
+      Check versions and create PR if version bump is possible.
+      Please run the ci to completion and then label the PR with `pr-pull`.
+    cmds:
+      - brew bump --tap wyvernixtl/tap2 --open-pr
+
+  audit:
+    description: Audit, build and test a formula.
+    env:
+      HOMEBREW_NO_INSTALL_FROM_API: 1
+    requires:
+      vars:
+        - FORMULA
+    cmds:
+      - brew audit --new --formula $FORMULA
+      - brew reinstall --build-from-source --verbose --debug $FORMULA
+      - brew test $FORMULA
