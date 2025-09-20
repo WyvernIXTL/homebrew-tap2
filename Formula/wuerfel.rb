@@ -1,8 +1,8 @@
 class Wuerfel < Formula
   desc "Diceware password generator cli based on eff password lists"
   homepage "https://github.com/WyvernIXTL/wuerfel-rs"
-  url "https://github.com/WyvernIXTL/wuerfel-rs/archive/refs/tags/v0.1.11.tar.gz"
-  sha256 "f34292725e0bc7a4b7a06d0de81264097a4a2b918a5d620315258606b67499e3"
+  url "https://github.com/WyvernIXTL/wuerfel-rs/archive/refs/tags/v0.1.12.tar.gz"
+  sha256 "72d72673312cdeffbf25b6c53180b0d6f2c034534ad970552b8cf73766b0d81d"
   license "MPL-2.0"
 
   bottle do
