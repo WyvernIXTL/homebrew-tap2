@@ -7,9 +7,11 @@ class Flicense < Formula
   revision 1
 
   bottle do
-    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.4.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "621ebfaf6fccf38ce33058156b36d74ca590562c41236fb5fba8de295522f5d5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "0ce63260a241c4b50e7eb5b1551dfc5a17f4682959626a03573488dd1c0b7b81"
+    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.4.0_1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "32dcc4f86beecee9e1f7d2a24982a10cc225259a345eb6afc6149daf170412a9"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "35523211accb867a97fcea6cef2c561692ef410c93946b5abc3161f924cdff76"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "171eb8135f8d4b87be8c343d4cf82890acd1f30bbffe6735943d8cb49377765d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "620292cf2e81836e7dfb8d9c06cfc1a135baf521c7679c2842c881dbdff184c0"
   end
 
   depends_on "expat" => :build
