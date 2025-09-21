@@ -4,6 +4,7 @@ class Wuerfel < Formula
   url "https://github.com/WyvernIXTL/wuerfel-rs/archive/refs/tags/v0.1.12.tar.gz"
   sha256 "72d72673312cdeffbf25b6c53180b0d6f2c034534ad970552b8cf73766b0d81d"
   license "MPL-2.0"
+  revision 1
 
   bottle do
     root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/wuerfel-0.1.12"
