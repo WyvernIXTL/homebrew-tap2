@@ -4,6 +4,7 @@ class Flicense < Formula
   url "https://github.com/WyvernIXTL/flicense-rs/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "8f0eef10c5327567d1bd6da52d98e990a39328d2428d06778387610cad18b4a2"
   license "BSL-1.0"
+  revision 1
 
   bottle do
     root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.4.0"
