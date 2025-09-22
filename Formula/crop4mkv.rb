@@ -5,15 +5,13 @@ class Crop4mkv < Formula
   sha256 "5680c0ed65b2019732b5d9504ce4badb008daaabb47c466956aa691127e4983b"
   license "MPL-2.0"
 
-  depends_on "go-task" => :build
-  depends_on "oven-sh/bun/bun" => :build
-  depends_on "powershell/tap/powershell-lts" => :build
+  depends_on "pkgx" => :build
   depends_on "ffmpeg"
   depends_on "mkvtoolnix"
 
   def install
-    system "bun", "install", "--production"
-    system "bun", "build", "--compile", "--minify", "--sourcemap", "./src/index.ts", "--outfile", "crop4mkv"
+    system "pkgx", "bun", "install", "--production"
+    system "pkgx", "bun", "build", "--compile", "--minify", "--sourcemap", "./src/index.ts", "--outfile", "crop4mkv"
     bin.install "crop4mkv"
   end
 
