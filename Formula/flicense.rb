@@ -6,11 +6,11 @@ class Flicense < Formula
   license "BSL-1.0"
 
   bottle do
-    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.4.0_1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "32dcc4f86beecee9e1f7d2a24982a10cc225259a345eb6afc6149daf170412a9"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "35523211accb867a97fcea6cef2c561692ef410c93946b5abc3161f924cdff76"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "171eb8135f8d4b87be8c343d4cf82890acd1f30bbffe6735943d8cb49377765d"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "620292cf2e81836e7dfb8d9c06cfc1a135baf521c7679c2842c881dbdff184c0"
+    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.5.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "bbd857048d4c67b0e0ba2c57ab49ce3b83a748ddaebb724f5708e4434cb81301"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6988c05abf0c52734073f101c8dbb0d7dfeb0a59f2d3da2bc63e2e40bb952b3b"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "5aacbcd5be3869df6ff7f9e9ed758a535e7a60c3a7eb960f1723367bc4386450"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "c5d95abf2db79fce63d02e78bfe33ddcece872b747f27c18296584481b14fd23"
   end
 
   depends_on "expat" => :build
