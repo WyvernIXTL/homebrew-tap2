@@ -79,3 +79,7 @@ task bump
 brew bump --tap wyvernixtl/tap2 --open-pr
 ```
 
+### Label the PR!
+
+After the workflows completed sucessfully, label the pr `pr-pull`. Do not close the pr per hand or merge the pr!
+
