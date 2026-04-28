@@ -2,7 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install wyvernixtl/tap2/<formula>`
+```sh
+brew install wyvernixtl/tap2/<formula>
+```
 
 Or `brew tap wyvernixtl/tap2` and then `brew install <formula>`.
 
