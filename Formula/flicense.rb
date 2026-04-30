@@ -1,8 +1,8 @@
 class Flicense < Formula
   desc "CLI for printing license information of rust cargo projects to the terminal"
   homepage "https://github.com/WyvernIXTL/flicense-rs"
-  url "https://github.com/WyvernIXTL/flicense-rs/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "587faae55388b272f76695b81e49fce3c90ed08c8e7a450943db1fec843517f0"
+  url "https://github.com/WyvernIXTL/flicense-rs/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "3d4f376d03921e17e01802e7bad84027331d3c9e69fabfc19bde632ec1f1e3a7"
   license "BSL-1.0"
 
   bottle do
