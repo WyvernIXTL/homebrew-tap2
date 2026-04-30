@@ -15,11 +15,25 @@ Then go to the repo:
 cd "$(brew --repo wyvernixtl/tap2)"
 ```
 
+## Add Formula
+
+Checkout a separate branch named `"<name>-<version>"` and then use the `brew create` command to generate a new formula.
+
+```sh
+brew create
+```
+
+After running the tests and audits open a pr and if the tests run through label it with `pr-pull`! DO NOT MERGE IT MANUALLY!
+
+
 ## Test a Formula
 
 ```sh
 FORMULA=flicense task audit
 ```
+
+By running `task test` the checks in the next section are run.
+
 
 ### Check Version
 
