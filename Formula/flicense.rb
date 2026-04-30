@@ -1,16 +1,16 @@
 class Flicense < Formula
   desc "CLI for printing license information of rust cargo projects to the terminal"
   homepage "https://github.com/WyvernIXTL/flicense-rs"
-  url "https://github.com/WyvernIXTL/flicense-rs/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "587faae55388b272f76695b81e49fce3c90ed08c8e7a450943db1fec843517f0"
+  url "https://github.com/WyvernIXTL/flicense-rs/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "3d4f376d03921e17e01802e7bad84027331d3c9e69fabfc19bde632ec1f1e3a7"
   license "BSL-1.0"
 
   bottle do
-    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.5.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "bbd857048d4c67b0e0ba2c57ab49ce3b83a748ddaebb724f5708e4434cb81301"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6988c05abf0c52734073f101c8dbb0d7dfeb0a59f2d3da2bc63e2e40bb952b3b"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "5aacbcd5be3869df6ff7f9e9ed758a535e7a60c3a7eb960f1723367bc4386450"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "c5d95abf2db79fce63d02e78bfe33ddcece872b747f27c18296584481b14fd23"
+    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/flicense-0.5.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "37269f947f233920b7eed3523bef75fb7f097524beed1808eaa964095a6d446e"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "cae8ad236cd4a833c0d67630be705ba9cae33c4f29a2055560f4a050e0b21ef7"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "83b233500e06423f77b1ae727df9fc8fad8f08bde6dc778784b11f79716a8093"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "36fac4e2f408ba3adf6ecf36eccc35ce7e836bed290e3c1e9f30986eace8cfec"
   end
 
   depends_on "expat" => :build
