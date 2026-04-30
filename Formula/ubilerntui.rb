@@ -16,4 +16,3 @@ class Ubilerntui < Formula
     system bin/"ubilerntui", "--help"
   end
 end
-
