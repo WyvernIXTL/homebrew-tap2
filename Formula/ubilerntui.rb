@@ -4,6 +4,7 @@ class Ubilerntui < Formula
   url "https://github.com/WyvernIXTL/ubilerntui/archive/refs/tags/v0.1.10.tar.gz"
   sha256 "cb019ffc6763934ce06828cfe8fc2076ca9abebba4212cc54554773ce630187c"
   license "GPL-3.0-or-later"
+  revision 1
 
   depends_on "expat" => :build
   depends_on "rust" => :build
