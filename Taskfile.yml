@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 tasks:
   check:
@@ -10,6 +10,8 @@ tasks:
     description: |
       Check versions and create PR if version bump is possible.
       Please run the ci to completion and then label the PR with `pr-pull`.
+    env:
+      HOMEBREW_NO_INSTALL_FROM_API: 1
     cmds:
       - brew bump --tap wyvernixtl/tap2 --open-pr
 
