@@ -1,10 +1,9 @@
 class Ubilerntui < Formula
   desc "Eine TUI um für die UBI-Prüfung zu lernen"
   homepage "https://github.com/WyvernIXTL/ubilerntui"
-  url "https://github.com/WyvernIXTL/ubilerntui/archive/refs/tags/v0.1.10.tar.gz"
-  sha256 "cb019ffc6763934ce06828cfe8fc2076ca9abebba4212cc54554773ce630187c"
+  url "https://github.com/WyvernIXTL/ubilerntui/archive/refs/tags/v0.1.11.tar.gz"
+  sha256 "7741c9f8304a60beed23d21dfce23f537785ddf33f55f087d50078cf17e8b266"
   license "GPL-3.0-or-later"
-  revision 1
 
   bottle do
     root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/ubilerntui-0.1.10_1"
