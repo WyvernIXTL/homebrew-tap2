@@ -6,10 +6,10 @@ class Ubilerntui < Formula
   license "GPL-3.0-or-later"
 
   bottle do
-    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/ubilerntui-0.1.10_1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "302595d0a360f8faff31879fcddef0e58a097751ebc1f417a38dae85793901d5"
-    sha256 cellar: :any_skip_relocation, arm64_linux:  "9ae83d44955b9a157d2c7b53266f8a279aa84f32453caeb6affc2b5f050422fa"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "8e6186030bbef79d60f90c98f3f978112fa130701c6a324cb8b654b1c8e0da8b"
+    root_url "https://github.com/WyvernIXTL/homebrew-tap2/releases/download/ubilerntui-0.1.11"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "d424c5e4a7ade49a85a4941940b4600c48b1d947bbfa79c9249376a981696fa1"
+    sha256 cellar: :any,                 arm64_linux:  "381d28f0eec969738b0eb6f5602dd3ee8062418f487531b69acdfe3f6c3a7669"
+    sha256 cellar: :any,                 x86_64_linux: "5d9e171c5998d8f46eab3e676ad9580579ad9b21620c4b99f91432346553a416"
   end
 
   depends_on "expat" => :build
