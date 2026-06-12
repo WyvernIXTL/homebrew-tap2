@@ -15,7 +15,7 @@ jobs:
           - ubuntu-24.04-arm
           - macos-26
         include:
-          - os: ubuntu-22.04-arm
+          - os: ubuntu-24.04-arm
             tier2: true
     runs-on: ${{ matrix.os }}
     permissions:
